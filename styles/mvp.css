@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+.container{
+    margin: 2em auto 2em auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    border-radius: 15px;
+}
+h1{
+    color: yellow;
+    font-size: 4em;
+    font-family: 'Lexend Exa', sans-serif;
+    margin: .5em auto .3em auto;
+}
+
+li {
+    display: inline;
+    padding:  0px 10px 10px 10px;
+}
+
+#animalImg{
+    height: 432x;
+    width: 260px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#animalText{
+    width: 60%; 
+    padding: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color:brown;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom: 3em;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+}
+button:hover{
+    background-color: grey;
+}
